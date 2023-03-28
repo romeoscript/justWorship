@@ -3,7 +3,7 @@ import logo from '../assets/jwlogo 1.svg'
 
 const Navbar = () => {
   return (
-    <section className='flex items-center justify-between px-[2rem] py-[1rem] bg-white text-black font-bold'>
+    <section className='flex items-center justify-between px-[2rem] py-[1rem] bg-white text-black font-bold fixed w-full top-0'>
         <div><img src={logo} alt='logo' className='h-[100px] w-[100px]' /></div>
         <ul className='flex items-center'>
             <li className='p-[1.5rem] capitalize text-xl'>home</li>
